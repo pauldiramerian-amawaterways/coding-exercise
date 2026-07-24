@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C00FD60-3267-40FF-B14D-66A05B10799B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcursionsApi", "src\ExcursionsApi\ExcursionsApi.csproj", "{65D94E2F-FE65-445D-8E12-5743602B4AD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C126CBDB-5B1F-4FFF-B62F-5EDC2CDEE69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcursionsApi.Tests", "tests\ExcursionsApi.Tests\ExcursionsApi.Tests.csproj", "{23F565D0-3AF8-4734-B23F-DD1686B71563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65D94E2F-FE65-445D-8E12-5743602B4AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D94E2F-FE65-445D-8E12-5743602B4AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D94E2F-FE65-445D-8E12-5743602B4AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D94E2F-FE65-445D-8E12-5743602B4AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F565D0-3AF8-4734-B23F-DD1686B71563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F565D0-3AF8-4734-B23F-DD1686B71563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F565D0-3AF8-4734-B23F-DD1686B71563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F565D0-3AF8-4734-B23F-DD1686B71563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65D94E2F-FE65-445D-8E12-5743602B4AD1} = {8C00FD60-3267-40FF-B14D-66A05B10799B}
+		{23F565D0-3AF8-4734-B23F-DD1686B71563} = {C126CBDB-5B1F-4FFF-B62F-5EDC2CDEE69D}
+	EndGlobalSection
+EndGlobal

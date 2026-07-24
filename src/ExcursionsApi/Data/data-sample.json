@@ -1,0 +1,104 @@
+{
+  "$comment": "Sample data for the Shore Excursion Booking exercise, sailing S1. The two sources are deliberately inconsistent: EX-100 clean happy path; EX-200 in catalog but missing from inventory; EX-300 price mismatch (catalog 109 vs inventory 119); EX-400 oversold (sold 10 > capacity 8); EX-500 sold out exactly; EX-600 departs within 48h of 'today' (2026-06-25), local time with no offset. 'reconciledResponse' is the actual GET /sailings/S1/excursions output from stage 2.",
+  "catalog": {
+    "S1": [
+      {
+        "excursionId": "EX-100",
+        "title": "Old Town Walking Tour",
+        "description": "A guided stroll through the medieval quarter with a local historian.",
+        "images": ["/img/old-town-1.jpg", "/img/old-town-2.jpg"],
+        "price": 89,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-200",
+        "title": "Vineyard Lunch & Tasting",
+        "description": "Three-course lunch paired with estate wines in the hills above the port.",
+        "images": ["/img/vineyard-1.jpg"],
+        "price": 145,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-300",
+        "title": "Sunset Sea Kayak",
+        "description": "Guided coastal paddle timed for golden hour. Beginners welcome.",
+        "images": ["/img/kayak-1.jpg"],
+        "price": 109,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-400",
+        "title": "City Highlights Bike Ride",
+        "description": "Easy-paced ride hitting the waterfront, the market, and the old fort.",
+        "images": ["/img/bike-1.jpg"],
+        "price": 60,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-500",
+        "title": "Chef’s Table Cooking Class",
+        "description": "Hands-on regional cooking class with a harborside chef. Small group.",
+        "images": ["/img/cooking-1.jpg"],
+        "price": 130,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-600",
+        "title": "Coastal Helicopter Flight",
+        "description": "Fifteen-minute scenic flight along the cliffs and bays.",
+        "images": ["/img/heli-1.jpg"],
+        "price": 320,
+        "currency": "USD"
+      }
+    ]
+  },
+  "inventory": {
+    "S1": [
+      {
+        "excursionId": "EX-100",
+        "capacity": 20,
+        "sold": 5,
+        "status": "open",
+        "localDepartureTime": "2026-07-10T09:00:00",
+        "price": 89,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-300",
+        "capacity": 12,
+        "sold": 4,
+        "status": "open",
+        "localDepartureTime": "2026-07-10T18:30:00",
+        "price": 119,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-400",
+        "capacity": 8,
+        "sold": 10,
+        "status": "open",
+        "localDepartureTime": "2026-07-11T10:00:00",
+        "price": 60,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-500",
+        "capacity": 12,
+        "sold": 12,
+        "status": "open",
+        "localDepartureTime": "2026-07-12T16:00:00",
+        "price": 130,
+        "currency": "USD"
+      },
+      {
+        "excursionId": "EX-600",
+        "capacity": 6,
+        "sold": 1,
+        "status": "open",
+        "localDepartureTime": "2026-06-26T08:00:00",
+        "price": 320,
+        "currency": "USD"
+      }
+    ]
+  }
+}
