@@ -14,10 +14,6 @@ public sealed class SeedCatalogSource : ICatalogSource
 {
     public async Task<IReadOnlyList<CatalogExcursion>> GetCatalogAsync(string sailingId, CancellationToken cancellationToken = default)
     {
-        // Stand in for network/IO latency so callers must treat this as async.
-        // await Task.Yield();
-        // return Seed.Catalog.TryGetValue(sailingId, out var excursions)
-        //     ? excursions
-        //     : Array.Empty<CatalogExcursion>();
+        
     }
 }

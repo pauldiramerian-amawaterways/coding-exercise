@@ -3,3 +3,4 @@
 /Users/pauldiramerian/workspaces/source_old/repos/dev-azure/interview-excercise/candidate-version/api-net/src/ExcursionsApi/obj/Debug/net8.0/ExcursionsApi.AssemblyInfo.cs
 /Users/pauldiramerian/workspaces/source_old/repos/dev-azure/interview-excercise/candidate-version/api-net/src/ExcursionsApi/obj/Debug/net8.0/ExcursionsApi.csproj.CoreCompileInputs.cache
 /Users/pauldiramerian/workspaces/source_old/repos/dev-azure/interview-excercise/candidate-version/api-net/src/ExcursionsApi/obj/Debug/net8.0/ExcursionsApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/pauldiramerian/workspaces/source_old/repos/dev-azure/interview-excercise/candidate-version/api-net/src/ExcursionsApi/obj/Debug/net8.0/ExcursionsApi.sourcelink.json
